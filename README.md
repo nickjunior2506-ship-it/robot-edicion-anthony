@@ -46,10 +46,10 @@ Estilos que venden, recetario táctico (fuentes, colores, transiciones permitida
 | | |
 |---|---|
 | **Proyecto** | REA — Robot de Edición Anthony |
-| **Versión** | v1.0.0 (2026-09-16) |
-| **Autor** | Anthony |
+| **Versión** | v1.0.1 (2026-09-16) |
+| **Autor** | Anthony Junior Susaña Ramírez |
 | **Contacto** | WhatsApp +1 (849) 517-8351 · [wa.me/18495178351](https://wa.me/18495178351) |
 | **Repositorio original** | https://github.com/nickjunior2506-ship-it/robot-edicion-anthony |
-| **Licencia** | MIT (ver `LICENSE`). Puedes usarlo y modificarlo; conserva el aviso de autor. |
+| **Licencia** | **Uso NO comercial** (ver `LICENSE`). Uso personal/educativo permitido con atribución. **Uso comercial prohibido sin permiso escrito de Anthony Junior Susaña Ramírez** (WhatsApp 849-517-8351). |
 
 Cada archivo fuente lleva esta cabecera y los scripts Python exponen `__author__`, `__contact__`, `__version__` y `__project__`.
