@@ -38,3 +38,18 @@ Estilos que venden, recetario táctico (fuentes, colores, transiciones permitida
 
 ## Requisitos
 `brew install ffmpeg-full yt-dlp` · `pipx install openai-whisper --python python3.12 --pip-args="--prefer-binary"` (+ `numpy<2`) · Node 18+ para Remotion.
+
+---
+
+## Créditos e identificación
+
+| | |
+|---|---|
+| **Proyecto** | REA — Robot de Edición Anthony |
+| **Versión** | v1.0.0 (2026-09-16) |
+| **Autor** | Anthony |
+| **Contacto** | WhatsApp +1 (849) 517-8351 · [wa.me/18495178351](https://wa.me/18495178351) |
+| **Repositorio original** | https://github.com/nickjunior2506-ship-it/robot-edicion-anthony |
+| **Licencia** | MIT (ver `LICENSE`). Puedes usarlo y modificarlo; conserva el aviso de autor. |
+
+Cada archivo fuente lleva esta cabecera y los scripts Python exponen `__author__`, `__contact__`, `__version__` y `__project__`.

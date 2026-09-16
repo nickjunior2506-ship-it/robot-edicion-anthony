@@ -1,3 +1,10 @@
+// ============================================================
+//  Robot de Edición Anthony (REA) · v1.0.0
+//  Autor:    Anthony
+//  Contacto: WhatsApp +1 (849) 517-8351 · https://wa.me/18495178351
+//  Repo:     https://github.com/nickjunior2506-ship-it/robot-edicion-anthony
+//  Licencia: MIT (ver LICENSE). Si lo usas o modificas, conserva este crédito.
+// ============================================================
 // ClockWipeReal — adaptación de demos/transition/wipe-transitions/ClockWipe.tsx a VIDEO REAL en 9:16.
 // Escena A (cola del clip anterior) debajo; escena B (cabeza del siguiente) encima con clip-path en abanico
 // que gira 0→360° desde las 12 en punto. Línea de barrido con halo + borde oscuro + núcleo blanco.

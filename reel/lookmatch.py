@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# ============================================================
+#  Robot de Edición Anthony (REA) · v1.0.0
+#  Autor:    Anthony
+#  Contacto: WhatsApp +1 (849) 517-8351 · https://wa.me/18495178351
+#  Repo:     https://github.com/nickjunior2506-ship-it/robot-edicion-anthony
+#  Licencia: MIT (ver LICENSE). Si lo usas o modificas, conserva este crédito.
+# ============================================================
 """Extrae el LOOK de un video de referencia y lo hornea como LUT .cube (33^3).
 Método: transferencia de color estadística (Reinhard) en Lab. Se conserva la exposición media del material
 propio (no copiamos que la referencia sea de noche), se transfiere: contraste (std de L), casta (media de a,b)
@@ -7,6 +14,10 @@ y saturación (std de a,b). Ratios acotados para que el LUT sea un "look", no un
 uso: lookmatch.py ref.rgb src.rgb W H out.cube [nombre]
    ref.rgb / src.rgb = volcados rawvideo rgb24 de N fotogramas de WxH (ffmpeg -f rawvideo -pix_fmt rgb24)
 """
+__author__ = "Anthony"
+__contact__ = "WhatsApp +1 (849) 517-8351 · https://wa.me/18495178351"
+__version__ = "1.0.0"
+__project__ = "REA — Robot de Edición Anthony"
 import sys, numpy as np
 
 ref_p, src_p, W, H, out = sys.argv[1], sys.argv[2], int(sys.argv[3]), int(sys.argv[4]), sys.argv[5]

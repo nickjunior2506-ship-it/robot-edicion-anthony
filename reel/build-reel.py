@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
+# ============================================================
+#  Robot de Edición Anthony (REA) · v1.0.0
+#  Autor:    Anthony
+#  Contacto: WhatsApp +1 (849) 517-8351 · https://wa.me/18495178351
+#  Repo:     https://github.com/nickjunior2506-ship-it/robot-edicion-anthony
+#  Licencia: MIT (ver LICENSE). Si lo usas o modificas, conserva este crédito.
+# ============================================================
 """Arma el reel 9:16 de SMART HOME LUXURY a partir de source.mp4 + audio.json (Whisper word timestamps).
 Reglas aplicadas (pipeline/MONTAGE-CRAFT.md): texto en pantalla antes de 0.5s, cortes de aire muerto,
 punch-ins alternados (pattern-interrupt cada 2-4s), captions karaoke palabra por palabra (highlight #22D3EE),
 un solo grade sobre todo, cadena de audio + loudnorm -14 LUFS.
 """
+__author__ = "Anthony"
+__contact__ = "WhatsApp +1 (849) 517-8351 · https://wa.me/18495178351"
+__version__ = "1.0.0"
+__project__ = "REA — Robot de Edición Anthony"
 import json, subprocess, sys, os
 
 W = os.path.dirname(os.path.abspath(__file__))
