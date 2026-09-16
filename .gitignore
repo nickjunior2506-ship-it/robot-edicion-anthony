@@ -1,0 +1,11 @@
+# material de video: nunca al repo (pesado + footage personal)
+*.mp4
+*.mov
+*.MOV
+*.wav
+*.m4a
+# LUTs comerciales de terceros (M31, packs) — solo se versionan los generados por lookmatch.py
+luts/M31*
+.DS_Store
+node_modules/
+__pycache__/
